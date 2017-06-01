@@ -1,0 +1,47 @@
+/* ESTILOS PERSONALIZADOS */
+
+body {
+    background-image: url(../img/fondoform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    margin: auto;
+    width: auto;
+    font-size: 16px;
+}
+
+input,
+select {
+    background-image: url(../img/caja.png);
+    border: outset 2px #787178;
+    border-radius: 6px;
+    color: #f2f3f4;
+	margin: auto;
+    width: auto;
+}
+
+input:hover {
+    background-image: url(../img/caja.png);
+    color: aqua
+}
+
+fieldset {
+    border: outset 5px #787178;
+    border-radius: 10px;
+	margin: auto;
+    width: auto;
+}
+
+legend {
+    border: outset 5px #787178;
+    border-radius: 10px;
+	margin: auto;
+    width: auto;
+}
