@@ -38,14 +38,15 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Formulario PhoneGap</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Formulario PhoneGap</title>
 </head>
 
 <body>
 
-    <form action="#" method="post">
+    <form class="contacto">
         <fieldset>
             <legend><strong>Datos de contacto</strong></legend>
             <hr>
@@ -66,14 +67,20 @@
             <input type="checkbox" name="checkbox-02" id="mujer" value="mujer">
             <br><br>
             <input type="reset" value="Limpiar">
-            <input type="submit" data-inline="true" value="Enviar" onClick="window.location.href='final.html'">
+            <input type="submit" data-inline="true" value="Enviar" onClick=" window.location.href='final.html'">
         </fieldset>
     </form>
 
 
 
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript">
+        app.initialize();
 
-    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    </script>
 </body>
 
 </html>
